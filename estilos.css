@@ -22,8 +22,8 @@ body{
 
 .header{
     height: 100vh;
-    /* background-image: linear-gradient(to top, hsla(258, 43%, 68%, 0.527) 0%, hsla(317, 88%, 87%, 0.527) 100%), url(woman.jpg); */
-    background-image: linear-gradient(to top, #fbc2eb65 0%, #a6c0ee83 100%), url(woman.jpg);
+    /* 02 */
+    background-image: linear-gradient(to top, rgba(251, 194, 235, 0.486) 0%, hsla(218, 68%, 79%, 0.514) 100%), url(img/woman.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -84,7 +84,7 @@ body{
 
 
 
-h1{
+.titulo{
     font-size: 60px;
     margin-bottom: 15px;
 }
@@ -97,7 +97,7 @@ h1{
 /* Services */
 
 .subtitulo{
-    color: hsl(258, 43%, 68%);
+    color: #9f8ad0;
     font-size: 40px;
     text-align: center;
     font-weight: 300;
@@ -117,7 +117,6 @@ h1{
 
 .checklist-servicio{
     width: 45%;
-    /* line-height: 22px; */
 }
 
 .service{
@@ -126,13 +125,13 @@ h1{
 
 .n-service{
     margin-bottom: 7px;
-    /* color: hsl(258, 43%, 68%); */
-    color: hsl(258, 43%, 68%);
+    color: #9f8ad0;
 }
 
 .number{
     display: inline-block;
-    background-image: linear-gradient(to top, hsl(258, 43%, 68%) 0%, hsl(318, 88%, 87%) 100%);
+    /* 02 */
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     line-height: 30px;
     text-align: center;
     border-radius: 50%;
@@ -227,10 +226,7 @@ h1{
 }
 
 footer{
-    /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c0ee 100%); */
-    /* background: #a6c0ee; */
-    /* background-image: linear-gradient(to top, hsl(258, 43%, 68%) 0%, hsl(318, 88%, 87%) 100%); */
-    background: hsl(258, 43%, 68%);
+    background: #9f8ad0;
     padding-bottom: 0.1px;
 }
 
@@ -299,7 +295,7 @@ footer{
         width: 50vw;
     }
 
-    h1{
+    .titulo{
         font-size: 40px;
     }
 
@@ -361,7 +357,7 @@ footer{
         right: 20px;
     }
 
-    h1{
+    .titulo{
         font-size: 30px;
     }
 
